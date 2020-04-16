@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.santiniketan.devices">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/new_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".video_card_Activity" />
+        <activity android:name=".sound_card_Activity" />
+        <activity android:name=".projectorActivity" />
+        <activity android:name=".headphonesActivity" />
+        <activity android:name=".audio_speakers_Activity" />
+        <activity android:name=".printerActivity" />
+        <activity android:name=".monitorActivity" />
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".joystickActivity" />
+        <activity android:name=".touch_screenActivity" />
+        <activity android:name=".MicrophoneActivity" />
+        <activity android:name=".KeyboardActivity" />
+        <activity android:name=".mouseActivity" />
+        <activity android:name=".output_devices_Activity" />
+        <activity android:name=".input_Activity" />
+        <activity android:name=".gatewayActivity" />
+        <activity android:name=".switshActivity" />
+        <activity android:name=".repeatersActivity" />
+        <activity android:name=".hubActivity" />
+        <activity android:name=".bridgeActivity" />
+        <activity android:name=".routersActivity" />
+        <activity android:name=".networkActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
