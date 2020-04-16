@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#7C379963"
+    android:layout_height="match_parent"
+    tools:context=".monitorActivity">
+
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="50sp"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor:-"
+                android:textColor="#F44336"
+                android:textSize="30dp"
+                android:padding="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="387dp"
+                android:padding="0sp"
+                android:text="A monitor is an electronic visual computer display that includes a screen, circuitry and the case in which that circuitry is enclosed. Older computer monitors made use of cathode ray tubes (CRT), which made them large, heavy and inefficient. ... A monitor is also known as a screen or a visual display unit (VDU).
+"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/monitor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="A monitor usually comprises the display device, circuitry, casing, and power supply. Basically there are 3 types of monitors-: CRT (cathode ray tube) monitors. ( As shown in pic 1) These monitors employ CRT technology, which was used most commonly in the manufacturing of television screens."
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

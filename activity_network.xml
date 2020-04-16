@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#009153"
+    android:layout_height="match_parent"
+    tools:context=".networkActivity">
+
+    <TextView
+        android:layout_above="@id/btn_router"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Networking Devices:-"
+        android:textSize="30sp"
+        android:padding="10sp"
+        android:textColor="#0B28E6"/>
+    <Button
+        android:id="@+id/btn_hub"
+        android:textSize="20sp"
+        android:text="Hub"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_bridge"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:text="Bridge"
+        android:layout_above="@id/btn_hub"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_Repeater"
+        android:textSize="20sp"
+        android:text="Repeaters"
+        android:layout_below="@id/btn_hub"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_switch"
+        android:textSize="20sp"
+        android:text="switch"
+        android:layout_below="@id/btn_Repeater"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_gateway"
+        android:textSize="20sp"
+        android:text="Gateway"
+        android:layout_below="@id/btn_switch"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_router"
+        android:textSize="20sp"
+        android:layout_above="@id/btn_bridge"
+        android:text="routers"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="70dp"/>
+
+</RelativeLayout>

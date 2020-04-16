@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#D5219C63"
+    android:layout_height="match_parent"
+    tools:context=".input_Activity">
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="50sp"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Input Devices:-"
+                android:textSize="35dp"
+                android:textColor="#1433EC"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:id="@+id/btn_mouse"
+                android:layout_marginTop="70sp"
+                android:textColor="#FF5722"
+                android:layout_width="fill_parent"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="Mouse" />
+            <Button
+                android:id="@+id/btn_keyboard"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="Keyboard" />
+            <Button
+                android:id="@+id/btn_microphone"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="microphone" />
+            <Button
+                android:id="@+id/btn_touch_screen"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:layout_height="80dp"
+                android:textSize="25dp"
+                android:text="Touch Screen" />
+            <Button
+                android:id="@+id/btn_joystick"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="Joystick" />
+            <Button
+                android:id="@+id/btn_optical_scanner"
+                android:textSize="25dp"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:layout_height="80dp"
+                android:text="Optical Scanner" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#66CF297D"
+    android:layout_height="match_parent"
+    tools:context=".mouseActivity">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="50sp"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mouse:-"
+            android:textColor="#F44336"
+            android:textSize="30dp"
+            android:padding="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="387dp"
+            android:padding="0sp"
+            android:text="A Computer mouse is a hand-held pointing device that detects two-dimensional motion relation to a Surface. The motion is tropically translated into the motion of a pointer on a  display, Which allows a smooth control of the graphical user interface.
+"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mouse"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Why is it called a mouse?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="\n The name “mouse”, was coined at the Stanford Research Institute, derives from the resemblance of early models (which had a cord attached to the rear part of the device, suggesting the idea of a tail) to the common small rodent of the same name."/>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

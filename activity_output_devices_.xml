@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2BB89D"
+    android:layout_height="match_parent"
+    tools:context=".output_devices_Activity">
+
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="50sp"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Output Devices:-"
+                android:textSize="33dp"
+                android:textColor="#1433EC"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:id="@+id/btn_monitor"
+                android:layout_marginTop="70sp"
+                android:textColor="#FF5722"
+                android:layout_width="fill_parent"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="Monitor" />
+            <Button
+                android:id="@+id/btn_printer"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="printer" />
+            <Button
+                android:id="@+id/btn_audio_speakers"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="Audio Speakers" />
+            <Button
+                android:id="@+id/btn_headphones"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:layout_height="80dp"
+                android:textSize="25dp"
+                android:text="Headphones" />
+            <Button
+                android:id="@+id/btn_projector"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:text="projector" />
+            <Button
+                android:id="@+id/btn_sound_card"
+                android:textSize="25dp"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:layout_height="80dp"
+                android:text="sound card" />
+            <Button
+                android:id="@+id/btn_video_card"
+                android:textSize="25dp"
+                android:layout_width="fill_parent"
+                android:textColor="#FF5722"
+                android:layout_height="80dp"
+                android:text="video card" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
